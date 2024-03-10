@@ -23,7 +23,7 @@ Contains the necessary Python packages required to run the scripts. Install depe
 ```bash
 pip install -r requirements.txt
 ```
-Usage
+## Usage
 
 Prerequisites
 Before running the scripts, make sure you have the required dependencies installed. You can install them using:
@@ -33,42 +33,82 @@ pip install -r requirements.txt
 ```
 
 ### One-Time Music/Video Download (musicdownload.py, videodownload.py)
-Clone the repository:
 
-bash
-Copy code
+1. Clone the repository:
+
+´´´bash
 git clone https://github.com/your-username/youtube_downloader.git
 cd youtube_downloader
-Run the desired script:
 
-For music:
+2. Run the desired script:
 
-bash
-Copy code
+* For music:
+
+```bash
 python musicdownload.py
-For videos:
+```
 
-bash
-Copy code
+* For videos:
+
+```bash
 python videodownload.py
-Follow the prompts and provide the YouTube URL when prompted.
+```
 
-Stream Download (streamdownload.py)
-Clone the repository:
+### Stream Download (streamdownload.py)
 
-bash
-Copy code
+1. Clone the repository:
+
+```bash
 git clone https://github.com/your-username/youtube_downloader.git
 cd youtube_downloader
-Run the script:
+```
 
-bash
-Copy code
+2. Run the script:
+
+```bash
 python streamdownload.py
-Choose between downloading music or video, and follow the on-screen instructions to complete the download.
-Important Note
-Make sure to install the required dependencies before running the scripts. Use the provided requirements.txt file for easy installation.
+```
 
-Feel free to explore and enhance these scripts for your specific needs. If you encounter any issues or have suggestions for improvement, please don't hesitate to open an issue or contribute to the repository.
+## Example
 
-Happy downloading!
+Suppose you want to download content from YouTube based on user input and organize it in your local "Downloads" folder using the streamdownload.py.
+
+1. Clone the repository:
+
+´´´bash
+git clone https://github.com/your-username/youtube_downloader.git
+cd youtube_downloader
+´´´
+
+2. Install dependencies:
+
+´´´bash
+pip install -r requirements.txt
+´´´
+
+3. Run the script:
+
+´´´bash
+python streamdownload.py
+´´´
+
+4. Choose between downloading music or video:
+
+´´´bash
+Do you want to download 'audio' or 'video': 
+´´´
+
+If you choose Music, the script will prompt you to enter a search query and then download the first result.
+
+If you choose Video, the script will prompt you to enter a search query and then download the first video result.
+´´´bash
+Enter the search query to download: 
+´´´
+
+5. The script will download the content and save it in the current working directory or a specified output folder based on your preference.
+
+Now, you have successfully used the streamdownload.py script to download music or video from YouTube based on your input. Customize the script and rules according to your specific needs for an enhanced user experience.
+
+## Contributing
+
+If you find any issues or have suggestions for improvement, feel free to open an issue
