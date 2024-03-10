@@ -39,6 +39,7 @@ pip install -r requirements.txt
 ´´´bash
 git clone https://github.com/your-username/youtube_downloader.git
 cd youtube_downloader
+´´´
 
 2. Run the desired script:
 
